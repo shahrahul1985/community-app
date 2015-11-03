@@ -265,6 +265,9 @@
                     <label ng-hide="response.uiDisplayConfigurations.loanAccount.isHiddenField.graceOnArrearsAgeing == true">{{'label.input.onduedate' | translate}}</label>
                     <input ng-hide="response.uiDisplayConfigurations.loanAccount.isHiddenField.graceOnArrearsAgeing == true" id="graceOnArrearsAgeing" type="text" class="input-mini-small"
                            ng-disabled="!loanaccountinfo.product.allowAttributeOverrides.graceOnArrearsAgeing" ng-model="formData.graceOnArrearsAgeing">
+                    <label class="checkbox control-label">
+                        <input type="checkbox" ng-model="formData.recurringGraceOnPrincipal"/>
+                    </label>
                 </td>
             </tr>
             <tr data-ng-show="loanaccountinfo.canDefineInstallmentAmount">

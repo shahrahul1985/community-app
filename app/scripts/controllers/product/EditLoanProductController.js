@@ -70,6 +70,7 @@
                     graceOnInterestPayment: scope.product.graceOnInterestPayment,
                     graceOnInterestCharged: scope.product.graceOnInterestCharged,
                     graceOnArrearsAgeing: scope.product.graceOnArrearsAgeing,
+                    recurringGraceOnPrincipal: scope.product.recurringGraceOnPrincipal,
                     overdueDaysForNPA: scope.product.overdueDaysForNPA,
                     accountMovesOutOfNPAOnlyOnArrearsCompletion: scope.product.accountMovesOutOfNPAOnlyOnArrearsCompletion,
                     accountingRule: scope.product.accountingRule.id,
