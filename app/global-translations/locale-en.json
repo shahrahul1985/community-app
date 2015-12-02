@@ -2685,6 +2685,7 @@
     "label.input.repaymentstrategy": "Repayment strategy",
     "label.input.grace": "Moratorium",
     "label.input.onprincipalpayment": "On principal payment",
+    "label.input.onrecurringprincipalpayment": "On Recurring principal",
     "label.input.oninterestpayment": "On interest payment",
     "label.input.interestfreeperiod": "Interest free period",
     "label.input.none": "None",

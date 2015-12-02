@@ -421,8 +421,11 @@
                	type="text" class="form-control" ng-model="formData.graceOnInterestPayment">
         </div>
 		<div class="col-sm-2">
-			<input type="checkbox" ng-model="formData.recurringGraceOnPrincipal"/>
+			<input id="recurringGraceOnPrincipal" class="form-control"
+				   placeholder="{{'label.input.onrecurringprincipalpayment' | translate}}"
+				   type="text" ng-model="formData.recurringGraceOnPrincipal">
 		</div>
+
 
     </div>
     <div class="form-group">

@@ -249,6 +249,10 @@
                         <input
                             id="graceOnArrearsAgeing" class="input-mini-small" type="text"
                             ng-model="formData.graceOnArrearsAgeing" ng-disabled="!loanaccountinfo.product.allowAttributeOverrides.graceOnArrearsAgeing"></label>
+                    <label>{{ 'label.input.grace' | translate }}&nbsp;{{'label.input.onrecurringprincipalpayment' | translate}}</label>&nbsp;<input
+                        id="recurringGraceOnPrincipal" class="input-mini-small" type="text"
+                        ng-disabled="!loanaccountinfo.product.allowAttributeOverrides.graceOnPrincipalAndInterestPayment"
+                        ng-model="formData.recurringGraceOnPrincipal">
                 </td>
             </tr>
             <tr data-ng-show="loanaccountinfo.canDefineInstallmentAmount">
