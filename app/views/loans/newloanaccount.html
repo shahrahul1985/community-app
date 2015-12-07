@@ -286,6 +286,12 @@
                     <label ng-hide="response.uiDisplayConfigurations.loanAccount.isHiddenField.graceOnArrearsAgeing == true">{{'label.input.onduedate' | translate}}</label>
                     <input ng-hide="response.uiDisplayConfigurations.loanAccount.isHiddenField.graceOnArrearsAgeing == true" id="graceOnArrearsAgeing" type="text" class="input-mini-small"
                            ng-disabled="!loanaccountinfo.product.allowAttributeOverrides.graceOnArrearsAgeing" ng-model="formData.graceOnArrearsAgeing">
+
+                    <label>{{'label.input.onrecurringprincipalpayment' | translate}}</label>
+                     <input id="recurringGraceOnPrincipal" type="text" class="input-mini-small"
+                            ng-disabled="!loanaccountinfo.product.allowAttributeOverrides.graceOnPrincipalAndInterestPayment"
+                            ng-model="formData.recurringGraceOnPrincipal">
+
                 </td>
             </tr>
             <tr data-ng-show="loanaccountinfo.canDefineInstallmentAmount">
